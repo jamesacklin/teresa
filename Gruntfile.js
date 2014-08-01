@@ -394,11 +394,6 @@ module.exports = function (grunt) {
                 'autoprefixer'
             ]);
         }
-
-        grunt.task.run([
-            'connect:test',
-            'mocha'
-        ]);
     });
 
     grunt.registerTask('build', [
