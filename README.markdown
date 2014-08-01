@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/jamesacklin/teresa.png?branch=master)](https://travis-ci.org/jamesacklin/teresa)
