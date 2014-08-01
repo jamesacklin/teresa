@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$(".style-switch").click(function(){var a=$("*[data-switchable=style]"),b=$(this).attr("data-style");$(".style-switch").removeClass("active"),a.removeClass(),a.addClass(b),$(this).addClass("active")})});
