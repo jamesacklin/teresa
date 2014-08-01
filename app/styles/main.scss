@@ -1,0 +1,82 @@
+// bower:scss
+// endbower
+
+
+%typeface-1 {
+    font-family: "letter-gothic-std", serif;
+    font-weight: 700;
+}
+
+%typeface-2 {
+    font-family: "rooney-web", serif;
+    font-weight: 300;
+}
+
+%typeface-3 {
+    font-family: "courier-prime", serif;
+    font-weight: 400;
+}
+
+%color-scheme-1 {
+    background: #f7f5f0;
+    color: #5a5a5a;
+}
+
+%color-scheme-2 {
+    background: #F5FCFF;
+    color: #2B1600;
+}
+
+%color-scheme-3 {
+    background: #efefef;
+    color: #5c5c5c;
+}
+
+body {
+
+    @extend %typeface-1;
+    @extend %color-scheme-1;
+
+    @extend %typeface-2;
+    @extend %color-scheme-2;
+
+    @extend %typeface-3;
+    @extend %color-scheme-3;
+
+    line-height: 1.75;
+    padding: 0 2%;
+    @media (min-width: 670px){
+        font-size: 105%;
+        padding: 0 10%;
+    }
+    @media (min-width: 850px){
+        font-size: 105%;
+        padding: 0 12%;
+    }
+    @media (min-width: 906px){
+        font-size: 110%;
+        line-height: 2;
+        padding: 0 15%;
+    }
+    @media (min-width: 980px){
+        font-size: 110%;
+        padding: 0 20%;
+    }
+    @media (min-width: 1140px){
+        font-size: 125%;
+        padding: 0 21%;
+    }
+    @media (min-width: 1370px){
+        padding: 0 25%;
+    }
+    @media (min-width: 1656px){
+        padding: 0 27.5%;
+    }
+}
+
+.container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 960px;
+    margin: 0 auto;
+}
